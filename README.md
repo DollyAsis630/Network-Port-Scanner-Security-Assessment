@@ -1,53 +1,69 @@
-# Network Port Scanning and Security Assessment
+# 🛡️ Network Port Scanning & Security Assessment
 
-## Project Overview
-The Network Port Scanning and Security Assessment project demonstrates how Python and Nmap can be used to scan a system for open ports and document the results. It provides a basic introduction to network reconnaissance and security assessment.
+<p align="center">
+  <img src="https://img.shields.io/badge/Domain-Cybersecurity-00C853?style=for-the-badge&logo=hackthebox&logoColor=white" alt="Cybersecurity" />
+  <img src="https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Tool-Nmap-2C5AA0?style=for-the-badge" alt="Nmap" />
+</p>
 
-## Objectives
-- Identify open ports on an authorized target
-- Understand basic network port scanning.
-- Use Python to automate port-scanning tasks.
-- Use Nmap to perform network scans.
-- Record and review scan results.
+## 🔍 Overview
 
-## Technologies Used
-- **Python:** Implements the port-scanning functionality.
-- **Nmap:** Performs network scanning and identifies open ports.
-- **Visual Studio Code:** Used to develop and run the project.
+A cybersecurity project designed to identify open network ports and explore basic network security assessment using **Python** and **Nmap**. It demonstrates fundamental port-scanning techniques and helps build practical knowledge of network security.
 
-## Project Files
-- `scanner.py` — Python port scanner.
-- `security_assessment.py` — Security assessment script.
-- `scan_results.csv` — Recorded scan results.
-- `nmap_results.txt` — Nmap scan output.
-- `security_report.txt` — Security assessment report.
-- `Network_Port_Scanner_Report.md` — Project report.
-- `screenshots/` — Screenshots showing project execution and results.
+## ⚙️ Technologies & Tools
 
-## Testing
-The scanner was tested against the local system (`127.0.0.1`). Port `8000` was detected as open while a local Python HTTP server was running.
+- 🐍 **Python** — Port-scanning implementation
+- 🌐 **Nmap** — Network scanning and port identification
+- 💻 **Visual Studio Code** — Development environment
 
-An open port does not automatically indicate a security vulnerability. Further investigation is required to determine whether a service is exposed or misconfigured.
+## ✨ Key Features
 
-## How to Run
-1. Install Python.
-2. Install Nmap and ensure it is available on your system.
+- 🔎 Identify open ports on authorized targets
+- ⚡ Perform network port scans
+- 📊 Record and review scan results
+- 🛡️ Generate a basic security assessment report
+
+## 📁 Project Structure
+
+```text
+Network-Port-Scanner/
+├── scanner.py
+├── security_assessment.py
+├── scan_results.csv
+├── nmap_results.txt
+├── security_report.txt
+├── Network_Port_Scanner_Report.md
+├── README.md
+```
+
+## 🚀 Getting Started
+
+1. Install Python and Nmap.
+2. Clone or download this repository.
 3. Open the project folder in Visual Studio Code.
-4. Run the Python scanner:
+4. Run the scanner:
 
    ```bash
    python scanner.py
    ```
 
-5. Review the generated scan results.
+5. Review the scan results and generated reports.
 
-Follow the commands and configuration defined in the actual project files if they differ from these general instructions.
+*Note: Follow the actual configuration and instructions in the project scripts if they differ from these general steps.*
 
-## Security and Ethical Use
-Use this project only on your own systems or on networks for which you have explicit permission to conduct security testing. Do not scan unauthorized targets.
+## 🎯 Project Goals
 
-## Learning Outcomes
-- Basic understanding of TCP port scanning.
-- Practical experience using Python and Nmap.
-- Recording and reviewing scan results.
-- Introduction to network security assessment.
+- Understand network port scanning.
+- Explore open-port identification.
+- Practice Python-based security tools.
+- Develop foundational network security assessment skills.
+
+## ⚠️ Ethical Use
+
+This project is intended for educational purposes. Scan only systems you own or have explicit permission to test.
+
+---
+
+<p align="center">
+  <strong>🔐 Learn • Scan • Analyze • Secure 🔐</strong>
+</p>
