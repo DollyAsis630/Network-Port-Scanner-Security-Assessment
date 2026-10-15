@@ -51,5 +51,3 @@ Use this project only on your own systems or on networks for which you have expl
 - Practical experience using Python and Nmap.
 - Recording and reviewing scan results.
 - Introduction to network security assessment.
-
-Cyber Security and Network Security
