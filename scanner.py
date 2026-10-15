@@ -3,7 +3,7 @@ import socket
 import csv
 from datetime import datetime, timezone
 
-# Scan only your own computer
+# Scanned on own computer
 TARGET = "127.0.0.1"
 
 PORTS = [21, 22, 80, 443, 8000, 8080]
