@@ -1,15 +1,15 @@
 NETWORK PORT SCANNER — RESULT COMPARISON
 
-**Objective:** To compare the results of a Python-based TCP port scanner with Nmap.
+Objective: To compare the results of a Python-based TCP port scanner with Nmap.
 
-**Target:** 127.0.0.1 (localhost)
+Target: 127.0.0.1 (localhost)
 
-**Ports tested:** 21, 22, 80, 443, 8000, 8080
+Ports tested: 21, 22, 80, 443, 8000, 8080
 
-**Method:** Both tools were used to scan the same six TCP ports on the local computer.
+Method: Both tools were used to scan the same six TCP ports on the local computer.
 
-**Results:** The Python scanner recorded connection outcomes in `scan_results.csv`. Nmap recorded port states and service information in `nmap_results.txt`.
+Results: The Python scanner recorded connection outcomes in `scan_results.csv`. Nmap recorded port states and service information in `nmap_results.txt`.
 
-**Analysis:** The results were compared port by port. Matching open-port results indicate that both tools detected a listening service on the same port. Differences should be investigated because the tools may classify connection outcomes differently.
+Analysis: The results were compared port by port. Matching open-port results indicate that both tools detected a listening service on the same port. Differences should be investigated because the tools may classify connection outcomes differently.
 
-**Conclusion:** This exercise demonstrated how to perform a basic localhost port scan using Python and Nmap and compare the results. An open port does not automatically indicate a security vulnerability.
+Conclusion: This exercise demonstrated how to perform a basic localhost port scan using Python and Nmap and compare the results. An open port does not automatically indicate a security vulnerability.
