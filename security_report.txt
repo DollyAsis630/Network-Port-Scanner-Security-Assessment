@@ -1,0 +1,20 @@
+NETWORK PORT SCANNER - SECURITY ASSESSMENT
+================================================
+Report generated: 2026-10-15T00:35:07.924967+05:30
+Target: 127.0.0.1 (localhost)
+Ports tested: 6
+Open ports found: 1
+
+OPEN PORTS
+------------------------------------------------
+Port 8000
+
+RECOMMENDATIONS
+------------------------------------------------
+- Port 8000 is open. Service hint: HTTP alternate (possible). Review: Alternate HTTP port: confirm whether the service is needed
+
+LIMITATIONS
+------------------------------------------------
+An open port is not automatically a vulnerability.
+Service names based only on port numbers are guesses.
+This report is a basic review, not a complete security audit.

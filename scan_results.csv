@@ -1,0 +1,7 @@
+timestamp_utc,host,port,state,service_guess,http_response
+2026-10-14T19:16:08.715400+00:00,127.0.0.1,21,not open,FTP (possible),
+2026-10-14T19:16:09.229313+00:00,127.0.0.1,22,not open,SSH (possible),
+2026-10-14T19:16:09.732920+00:00,127.0.0.1,80,not open,HTTP (possible),
+2026-10-14T19:16:10.245231+00:00,127.0.0.1,443,not open,HTTPS (possible),
+2026-10-14T19:16:10.273472+00:00,127.0.0.1,8000,open,HTTP alternate (possible),HTTP/1.0 200 OK
+2026-10-14T19:16:10.779503+00:00,127.0.0.1,8080,not open,HTTP proxy/alternate (possible),
